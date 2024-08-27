@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Douhabi Taha - Sviluppatore Software</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome per le icone -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .hero {
+            background: url('tuafoto.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .hero-overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 50px;
+            border-radius: 10px;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Douhabi Taha</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Chi Sono</a></li>
+                <li class="nav-item"><a class="nav-link" href="#curriculum">Curriculum</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Progetti</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contatti</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero d-flex align-items-center">
+    <div class="hero-overlay container">
+        <h1 class="display-4">Douhabi Taha</h1>
+        <p class="lead">Sviluppatore Software con passione per la programmazione e le nuove tecnologie.</p>
+        <a href="#contact" class="btn btn-primary mt-3">Contattami</a>
+    </div>
+</section>
+
+<!-- Chi Sono -->
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="mb-4">Chi Sono</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Sono uno sviluppatore software con esperienza in diverse tecnologie e linguaggi di programmazione. Mi appassiono di creare soluzioni innovative e efficienti per risolvere problemi complessi.</p>
+                <ul>
+                    <li>Competenze tecniche: Java</li>
+                    <li>Soft skills: Problem solving, lavoro di squadra, comunicazione efficace</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="tuafoto.jpg" alt="Giovanni Rossi" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Curriculum -->
+<section id="curriculum" class="section bg-light">
+    <div class="container">
+        <h2 class="mb-4">Curriculum</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Esperienze Lavorative</h4>
+                <ul>
+                    <li><strong>Junior Developer - Azienda Ipse Docet</strong> (2024 - Presente)
+                        <ul>
+                            <li>Consulente web utilizzando java </li>
+                            <li>Collaborazione con il team di design per migliorare l'esperienza utente.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Junior Developer - Azienda ABC</strong> (2017 - 2020)
+                        <ul>
+                            <li>Manutenzione e aggiornamento di siti web aziendali.</li>
+                            <li>Implementazione di funzionalità backend in Python.</li>
+                        </ul>
+                    </li>
+                    <!-- Aggiungi altre esperienze -->
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Formazione</h4>
+                <ul>
+                    <li><strong>Laurea in Informatica</strong> - Università degli Studi di Milano (2013 - 2017)</li>
+                    <li><strong>Certificazione JavaScript Developer</strong> - Certificazione XYZ (2018)</li>
+                    <!-- Aggiungi altre formazioni -->
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="GiovanniRossiCV.pdf" class="btn btn-secondary" download>Scarica il mio CV</a>
+        </div>
+    </div>
+</section>
+
+<!-- Progetti -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="mb-4">Progetti</h2>
+        <div class="row">
+            <!-- Progetto 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="progetto1.jpg" class="card-img-top" alt="Progetto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Nome Progetto 1</h5>
+                        <p class="card-text">Descrizione del progetto. Questo progetto utilizza tecnologie come HTML, CSS e JavaScript per creare un'applicazione web interattiva.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Tecnologie: HTML, CSS, JavaScript</small>
+                        <br>
+                        <a href="https://github.com/tuoaccount/progetto1" class="btn btn-sm btn-primary mt-2" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Progetto 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="progetto2.jpg" class="card-img-top" alt="Progetto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Nome Progetto 2</h5>
+                        <p class="card-text">Descrizione del progetto. Un'applicazione backend sviluppata con Python e Django per gestire dati complessi.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Tecnologie: Python, Django</small>
+                        <br>
+                        <a href="https://github.com/tuoaccount/progetto2" class="btn btn-sm btn-primary mt-2" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Progetto 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="progetto3.jpg" class="card-img-top" alt="Progetto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Nome Progetto 3</h5>
+                        <p class="card-text">Descrizione del progetto. Un'applicazione full-stack sviluppata con React e Node.js per fornire un'esperienza utente completa.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Tecnologie: React, Node.js</small>
+                        <br>
+                        <a href="https://github.com/tuoaccount/progetto3" class="btn btn-sm btn-primary mt-2" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Aggiungi altri progetti -->
+        </div>
+    </div>
+</section>
+
+<!-- Contatti -->
+<section id="contact" class="section bg-light">
+    <div class="container">
+        <h2 class="mb-4">Contatti</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="https://formspree.io/f/yourformid" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nome:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" name="_replyto" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Messaggio:</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Invia</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h5>Seguimi sui social</h5>
+                <a href="https://linkedin.com/in/tuoprofilo" class="btn btn-primary me-2 mb-2" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/tuoaccount" class="btn btn-dark me-2 mb-2" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://twitter.com/tuoprofilo" class="btn btn-info me-2 mb-2" target="_blank">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <!-- Aggiungi altri social -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center">
+    <div class="container">
+        <p>&copy; 2024 Douhabi Taha. Tutti i diritti riservati.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS e dipendenze (Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Font Awesome JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+</html>
